@@ -1,0 +1,314 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Tektur', cursive;
+}
+
+body {
+    /* background: url('https://wallpaperaccess.com/full/2604779.jpg');
+    background-repeat: no-repeat;
+    width: 95rem;
+    height: 38.2rem;
+    position: relative;
+    margin-left: auto; */
+    /* margin-right: auto; */
+    background-color: rgba(128, 128, 128, 0.3);
+}
+
+@media(max-width:500px) {
+    html {
+        font-size: 18px;
+    }
+}
+@media((min-width:500px) and (max-width:1699px)) {
+    html {
+        font-size: 16px;
+    }
+}
+@media((min-width:1700px) and (max-width:2200px)) {
+    html {
+        font-size: 14px;
+    }
+}
+
+
+
+@media((min-width:2201px) and (max-width:2650px)) {
+    html {
+        font-size: 12px;
+    }
+}
+
+@media(min-width:2651px) {
+    html {
+        font-size: 28px;
+    }
+}
+
+
+
+.container1 {
+    font-size: 1.5rem;
+    height: 5.5rem;
+
+}
+
+.container1 p {
+    background-color: aquamarine;
+    color: red;
+    width: 95rem;
+    font-size: 3rem;
+    margin-top: 10px;
+    text-align: center;
+    font-family: 'Tektur', cursive;
+    font-weight: bolder;
+    margin-top: 0px;
+}
+
+.navbar {
+    margin-top: -0.75rem;
+    height: 4.7rem;
+    width: 95rem;
+    color: white;
+    background-color: #727879;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.navbar ul {
+    display: flex;
+    flex-direction: row;
+}
+
+.navbar ul li {
+    color: white;
+    align-items: center;
+    font-weight: bold;
+    list-style: none;
+    padding-top: 1.3rem;
+    padding-left: 7.3rem;
+    margin-left: 12px;
+    font-family: 'Tektur', cursive;
+    font-size: 1.75rem;
+    cursor: pointer;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.navbar ul li:hover {
+    font-weight: bolder;
+}
+
+.btn {
+    border-bottom: 0.1rem solid;
+    border-right: 0.1rem solid;
+    border-color: #cd8786;
+    font-size: 1.3rem;
+    height: 3rem;
+    float: right;
+    margin-right: 2rem;
+    width: 8rem;
+    color: #cd8786;
+    margin-top: -3.81rem;
+    cursor: pointer;
+    box-shadow: 3px 3px #cd8786;
+    border-radius: 1rem;
+    font-weight: bold;
+}
+
+.btn:hover {
+    border-color: rgb(210, 166, 166);
+    color: rgb(0, 110, 165);
+}
+
+.container2 {
+    position: absolute;
+    border: 2px solid rgb(119, 112, 112);
+    width: 95rem;
+    height: 55.4rem;
+    margin: auto;
+    margin-top: -8.8125rem;
+    text-align: center;
+    background-color: rgba(128, 128, 128, 0.18);
+    z-index: 10;
+    visibility: hidden;
+}
+
+.img {
+    width: 54rem;
+    height: 55rem;
+    float: left;
+}
+
+.subcont {
+    margin-right: 30px;
+}
+
+.modal-header {
+    font-size: 3rem;
+    font-weight: bold;
+    font-family: 'Tektur', cursive;
+    color: red;
+    text-shadow: 0px 2px 5px #747474;
+}
+
+.input {
+    margin: 1.4rem;
+    font-size: 1rem;
+    font-family: 'Tektur', cursive;
+}
+
+.label {
+    font-size: 2rem;
+    margin: 1.2rem;
+    font-size: 1rem;
+    font-family: 'Tektur', cursive;
+    font-weight: bold;
+    margin-left: -4rem;
+}
+
+.submit {
+    cursor: pointer;
+    padding-right: 0rem;
+    margin-right: -14rem;
+    margin-top: 1.7rem;
+    font-size: 1.6rem;
+    font-family: 'Tektur', cursive;
+    color: black;
+    width: 6.4rem;
+    height: 3.4rem;
+    border: 2px solid green;
+    border-radius: 0.9rem;
+}
+
+.homepage {
+    cursor: pointer;
+    padding-right: 0rem;
+    margin-right: -14rem;
+    margin-top: 1.7rem;
+    font-size: 1.6rem;
+    font-family: 'Tektur', cursive;
+    color: black;
+    width: 7.4rem;
+    height: 3.4rem;
+    border: 2px solid green;
+    border-radius: 0.9rem;
+    margin-left: -1rem;
+}
+
+.homepage:hover {
+    color: white;
+    background-color: green;
+    box-shadow: 3px 2px green;
+}
+
+.submit:hover {
+    color: white;
+    background-color: green;
+    box-shadow: 3px 2px green;
+}
+
+.btn-close {
+    font-size: 1.5rem;
+    color: black;
+    float: right;
+    cursor: pointer;
+    margin-right: 0.5rem;
+    width: 40px;
+    height: 40px;
+    border-color: rgba(128, 128, 128, 0.1);
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.btn-close:hover {
+    border: 2px solid black;
+    color: red;
+}
+
+.errors {
+    color: red;
+}
+
+.facebook {
+    width: 2rem;
+    height: 2rem;
+    margin-bottom: -0.6rem;
+    margin-left: 1rem;
+}
+
+.instagram {
+    width: 2rem;
+    height: 2rem;
+    margin-bottom: -0.6rem;
+    margin-left: 1.3rem;
+}
+
+.follow {
+    float: right;
+    margin-left: -2rem;
+    margin-bottom: 6rem;
+    margin-top: 5rem;
+    color: rgb(125, 3, 3);
+    text-shadow: 0px 2px 3px #747474;
+    margin-right: -1rem;
+}
+
+.gmail {
+    color: red;
+    margin-top: -1rem;
+}
+
+.container3 {
+    display: flex;
+    height: 39rem;
+    width: 20rem;
+}
+
+.container4 {
+    display: flex;
+    flex-direction: column;
+}
+
+.box {
+    border: 2px solid grey;
+    margin: 0.1rem;
+    width: 95rem;
+    text-align: center;
+    font-size: 1.9rem;
+    font-weight: bold;
+    color: rgb(175, 0, 0);
+    text-shadow: 0px 2px 2px #df0b0b;
+    background-color: white;
+}
+
+.boxheader p {
+    font-size: 4rem;
+}
+
+.ig1 {
+    width: 47rem;
+    height: 28rem;
+}
+
+.ig2 {
+    width: 47rem;
+    height: 28rem;
+}
+
+.ig3 {
+    width: 95rem;
+    height: 40rem;
+}
+
+.ig4 {
+    width: 95rem;
+}
+
+.boxheader p {
+    text-shadow: 2px 5px 5px #747474;
+}

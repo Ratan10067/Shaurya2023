@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SHAURYA: IIT KGP Sports Fest</title>
+    <link
+      rel="shortcut icon"
+      href="https://staticg.sportskeeda.com/wp-content/uploads/2012/09/544830_298736473547134_869477828_n-7256361.jpg"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+  </head>
+  <body>
+    <div class="maincontainer">
+      <div class="container1">
+        <p>SHAURYA'23</p>
+      </div>
+      <nav class="navbar" id="nav">
+        <ul>
+          <li>
+            <a href="https://wiki.metakgp.org/w/Shaurya" target="_blank"
+              >ABOUT</a
+            >
+          </li>
+          <li>SCHEDULE</li>
+          <li>EVENTS</li>
+          <li>SPONSORS</li>
+          <li>CONTACT US</li>
+          <div>
+            <button type="button" class="btn">REGISTER</button>
+          </div>
+        </ul>
+      </nav>
+    </div>
+    <div class="container2">
+      <img
+        class="img"
+        src="https://dvgsuddi.com/wp-content/uploads/2021/12/khelo-india.jpg"
+        alt=""
+      />
+      <button class="btn-close">X</button>
+      <div class="subcont">
+        <span class="modal-header"
+          >Fill Some Important Credential for Registration!!</span
+        ><br />
+        <form
+          action="/saurya.php"
+          name="form"
+          onsubmit="return validateform()"
+          method="post"
+        >
+          <div id="name">
+            <label class="label">Name:</label>
+            <input type="text" class="input" name="formname" required />
+            <div>
+              <b><span class="errors"></span></b>
+            </div>
+          </div>
+          <div id="email">
+            <label class="label">Email:</label>
+            <input
+              type="text"
+              name="formemail"
+              class="input"
+              pattern="^[a-zA-Z0-9]+@gmail\.com$"
+              required
+            />
+            <p class="gmail"><sup>*</sup>Only Gmail Users are allowed</p>
+            <div>
+              <b><span class="errors"></span></b>
+            </div>
+          </div>
+          <div id="pass">
+            <label class="label">Password:</label>
+            <input type="password" name="formpassword" class="input" required />
+            <div>
+              <b><span class="errors"></span></b>
+            </div>
+          </div>
+          <div id="num">
+            <label class="label">Phone Number: </label>
+            <input type="number" name="formnumber" class="input" required />
+            <div>
+              <b><span class="errors"></span></b>
+            </div>
+          </div>
+          <div id="gen">
+            <label class="input" name="formgender"><b>Gender:</b></label>
+            <select class="input" id="input1" required>
+              <option selected>Open This to Select Your Gender</option>
+              <option value="1">Male</option>
+              <option value="2">Female</option>
+              <option value="3">Others</option>
+            </select>
+          </div>
+          <div>
+            <label class="input"><b>Sports:</b></label>
+            <select class="input" id="input2" required>
+              <option selected>
+                Open This to Select Your Favourite Sports
+              </option>
+              <option value="1">Cricket</option>
+              <option value="2">Football</option>
+              <option value="3">Hockey</option>
+              <option value="4">Atheletics</option>
+              <option value="5">Volley Ball</option>
+              <option value="6">Basket Ball</option>
+              <option value="7">Swimming</option>
+              <option value="8">Badminton</option>
+              <option value="9">Lawn Tennis</option>
+              <option value="10">Squash</option>
+              <option value="11">KHO-KHO</option>
+              <option value="12">Boxing</option>
+              <option value="13">Billiards</option>
+              <option value="14">Table Tennis</option>
+              <option value="15">Weight Lifting</option>
+            </select>
+          </div>
+          <input class="submit" type="submit" value="Sign Up" />
+          <input class="homepage" type="submit" value="Homepage" />
+        </form>
+        <h1 class="follow">
+          For Regular Updates Follow us on
+          <a
+            href="https://www.facebook.com/Shaurya.IITKharagpur/"
+            target="_blank"
+            ><img
+              class="facebook"
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/2021_Facebook_icon.svg/2048px-2021_Facebook_icon.svg.png"
+              alt="Facebook"
+          /></a>
+          <a href="https://www.instagram.com/shaurya.iitkgp/" target="_blank"
+            ><img
+              class="instagram"
+              src="https://icon-library.com/images/instagram-small-icon/instagram-small-icon-12.jpg"
+              alt="Instagram"
+          /></a>
+        </h1>
+      </div>
+    </div>
+
+    <div class="boxheader">
+      <p>IIT Kharagpur Sports Area</p>
+    </div>
+    <div class="container3">
+      <div class="box">
+        <img
+          class="ig1"
+          src="https://www.mappls.com/place/SF16B1_1680523469126_0.png"
+          alt=""
+        /><br />
+        <h2>Jnan Ghosh Stadium</h2>
+        <h2>Atheletics</h2>
+      </div>
+      <div class="box">
+        <img
+          class="ig2"
+          src="https://images.shiksha.com/mediadata/images/1549361656phpJJKcJ0.png"
+          alt=""
+        /><br />
+        <h2>Tata Steel Complex</h2>
+        <h2>Cricket and Football</h2>
+      </div>
+    </div>
+    <div class="container4">
+      <div class="box">
+        <img
+          src="https://pacificengineers.in/wp-content/uploads/2020/05/IMG_20191212_181638-1-1024x469.jpg"
+          alt=""
+          class="ig3"
+        /><br />
+        <h2>Badminton Court TSG</h2>
+        <h2>Badminton</h2>
+      </div>
+      <div class="box">
+        <img
+          src="https://qph.cf2.quoracdn.net/main-qimg-b1ebd526046e18327795390a592e625d-lq"
+          alt=""
+          class="ig3"
+        /><br />
+        <h2>Basket Court TSG</h2>
+        <h2>BasketBall</h2>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
